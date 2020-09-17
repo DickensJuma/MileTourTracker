@@ -1,0 +1,12 @@
+<h1>All Fleets</h1>
+
+<ul id="articles">
+  <% @fleets.each do |fleet| %>
+    <li>
+      <%= link_to fleet.title, fleet_path(fleet) %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "Create a New Fleet", new_fleet_path, class: "new_fleet" %>
+
