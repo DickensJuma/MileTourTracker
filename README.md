@@ -1,10 +1,10 @@
-# Scaffold for social media app with Ruby on Rails
+# MileTourTracker app with Ruby on Rails
 
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+> This repo includes  code for MileTourTracker app with basic styling. Its a capstone project for Microverse students.
 
 ## Built With
 
-- Ruby v2.7.0
+- Ruby v2.7.1
 - Ruby on Rails v5.2.4
 
 ## Live Demo
@@ -67,11 +67,11 @@ Open `http://localhost:3000/` in your browser.
 
 ### Deployment
 
-TBA
+Heroku 
 
 ## Authors
 
-TBA
+Dickens Juma
 
 ## 🤝 Contributing
 
@@ -85,9 +85,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-TBA
+Microiverse Inc
 
 ## 📝 License
 
-TBA
+MIT
 
