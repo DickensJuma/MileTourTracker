@@ -1,6 +1,7 @@
 # MileTourTracker app with Ruby on Rails
 
 > This repo includes  code for MileTourTracker app with basic styling. Its a capstone project for Microverse students.
+> Used microverse scaffold to innitialize the user authorization and authentication
 
 ## Built With
 
