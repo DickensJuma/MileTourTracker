@@ -1,12 +1,20 @@
-<h1>All Fleets</h1>
-
-<ul id="articles">
-  <% @fleets.each do |fleet| %>
-    <li>
-      <%= link_to fleet.title, fleet_path(fleet) %>
-    </li>
+<h2>Create Fleet</h2>
+<%= form_for(@fleet) do |form| %>
+  <%= form.label :title %>
+  <%= form.text_field :title, id: :fleet_title, class: 'form-control', placeholder: 'Add New Fleet' %><br><br>
+  <% if @fleet.errors.full_messages.any? %>
+    <p class="errors">
+      <%= "Fleet could not be saved. #{@fleet.errors.full_messages.join('. ')}" %>
+    </p>
   <% end %>
-</ul>
+  <%= form.submit 'Save', class: 'btn btn-primary' %>
+<% end %>
 
-<%= link_to "Create a New Fleet", new_fleet_path, class: "new_fleet" %>
-
+<article class="timeline">
+  <h3>
+    Recent fleets
+  </h3>
+  <ul class="fleets">
+    <%= render @timeline_fleets %>
+  </ul>
+</article>

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap");
 
-$primary-color-dark: #689f38;
-$primary-color: #8bc34a;
+$primary-color-dark: #521419;
+$primary-color: #521419;
 $primary-color-light: #dcedc8;
 $primary-color-text: #212121;
 $divider-color: #bdbdbd;
@@ -98,7 +98,7 @@ a {
   color: red;
 }
 
-.new_post,
+.new_fleet,
 .new_comment {
   display: flex;
   flex-direction: column;
@@ -207,28 +207,28 @@ form {
     margin: 8px 0;
   }
 
-  .posts {
+  .fleets {
     width: 100%;
   }
 
-  .post {
+  .fleet {
     width: 100%;
     margin: 16px 0;
     display: flex;
     flex-direction: column;
   }
 
-  .post-attribution {
+  .fleet-attribution {
     float: left;
 
-    .post-author {
+    .fleet-author {
       margin: 0 0 8px 0;
       color: $primary-color-dark;
       text-transform: capitalize;
     }
   }
 
-  .post-liking {
+  .fleet-liking {
     float: right;
 
     a {
@@ -238,22 +238,22 @@ form {
       margin: 0 4px;
     }
 
-    .post-date {
+    .fleet-date {
       font-size: 0.6em;
     }
   }
 
-  .post-content {
+  .fleet-content {
     font-size: 1.1em;
     padding: 4px 0;
   }
 
-  .post-comments-section {
+  .fleet-comments-section {
     margin: 5px;
     width: 90%;
     margin-left: 10%;
 
-    .post-comments {
+    .fleet-comments {
       position: relative;
       display: flex;
       border-bottom: 1px solid $divider-color;
@@ -327,7 +327,7 @@ form {
     width: 60%;
   }
 
-  .new_post,
+  .new_fleet,
   .timeline,
   .users-section,
   .user-section {
@@ -340,7 +340,7 @@ form {
     width: 40%;
   }
 
-  .new_post,
+  .new_fleet,
   .timeline,
   .users-section,
   .user-section {
